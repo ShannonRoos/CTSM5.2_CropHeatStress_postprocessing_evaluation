@@ -9,8 +9,9 @@ from numpy import empty
 '''
     The following functions are all related to CTSM (CLM) post-processing of the grainc variable 
     for the crop functional types (CFTs), which need to match the FAO global statistics crops 
-    for crop yield evaluation. Some parts/functions are taken from Sam Rabin's postprocessing scripts,
-    from: https://doi.org/10.5194/gmd-16-7253-2023
+    for crop yield evaluation. 
+    Some parts/functions are taken from Rabin (2023) CTSM postprocessing scripts,
+    from: https://doi.org/10.5281/zenodo.7758123
 '''
 
 def plot_global_production(area_grid_m2, grainc_gCm2_grid, Y1,Yn, crop_list,y_ranges):
