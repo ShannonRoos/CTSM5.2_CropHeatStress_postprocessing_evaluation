@@ -3,6 +3,8 @@ import pandas as pd
 import cftime
 import xarray as xr
 
+''' Functions are taken from the ctsm Python gallery, available at: https://github.com/NCAR/ctsm_python_gallery'''
+
 def mindist(point, array):
     '''Formula to find the minimum distance of an element in an array.'''
     mindist = np.abs(array - point).argmin()
